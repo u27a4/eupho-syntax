@@ -1,0 +1,16 @@
+{
+  "name": "eupho-syntax",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "A syntax theme for Atom",
+  "keywords": [
+    "syntax",
+    "theme",
+    "eupho"
+  ],
+  "repository": "https://github.com/u27a4/eupho-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  }
+}

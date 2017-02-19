@@ -1,0 +1,31 @@
+// These colors are specific to the theme. Do not use in a package!
+
+// Config -----------------------------------
+@syntax-hue:          215;
+@syntax-saturation:   20%;
+@syntax-brightness:   15%;
+
+
+// Monochrome -----------------------------------
+@mono-1: hsl(@syntax-hue,100%, 97%); // default text
+@mono-2: hsl(@syntax-hue,  9%, 55%);
+@mono-3: hsl(@syntax-hue, 10%, 40%);
+
+// Colors -----------------------------------
+@hue-1:   hsl(205, 57%, 79%); // <-cyan
+@hue-2:   hsl(206, 64%, 72%); // <-blue
+@hue-3:   hsl(261,100%, 75%); // <-purple
+@hue-4:   hsl(160, 80%, 44%); // <-green
+
+@hue-5:   hsl(326, 83%, 74%); // <-red 1
+@hue-5-2: hsl(347,100%, 72%); // <-red 2
+
+@hue-6:   hsl( 43,100%, 62%); // <-orange 1
+@hue-6-2: hsl( 54, 70%, 68%); // <-orange 2
+
+// Base colors -----------------------------------
+@syntax-fg:     @mono-1;
+@syntax-bg:     hsl(@syntax-hue, @syntax-saturation, @syntax-brightness);
+@syntax-gutter: darken(@syntax-fg, 5%);
+@syntax-guide:  fade(@syntax-fg, 15%);
+@syntax-accent: hsl(@syntax-hue, 100%, 66%);
