@@ -1,5 +1,11 @@
 .syntax--source.syntax--cpp {
   .syntax--keyword.syntax--operator {
-    color: @hue-3;
+    color: @syntax-color-operator;
+  }
+
+  .syntax--support {
+    &.syntax--function.syntax--any-method {
+      color: @syntax-color-function;
+    }
   }
 }
