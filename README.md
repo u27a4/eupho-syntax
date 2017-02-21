@@ -1,9 +1,32 @@
 # Eupho Syntax theme
 
-A syntax theme.
+A dark syntax theme for [Atom](https://atom.io/).
 
-![A screenshot of your theme](https://f.cloud.github.com/assets/69169/2289498/4c3cb0ec-a009-11e3-8dbd-077ee11741e5.gif)
+Inspired by [Chester theme](https://atom.io/themes/chester-atom-syntax),
+and based on [One Dark Syntax theme](https://github.com/atom/one-dark-syntax) code.
 
-Based on [One Dark Syntax theme](https://github.com/atom/one-dark-syntax).
+### Preview
 
-Inspired by [Chester theme](https://atom.io/themes/chester-atom-syntax).
+#### Ruby
+![](/screenshots/ruby.png)
+
+#### HTML
+![](/screenshots/html.png)
+
+#### JavaScript
+![](/screenshots/javascript.png)
+
+#### CSS
+![](/screenshots/css.png)
+
+> The font used in the screenshots is [Fira Code](https://github.com/tonsky/FiraCode).
+
+### Install
+
+Search for `eupho-syntax` in Settings > Install > Themes.
+
+Or install it directly using the command:
+
+```shell
+apm install eupho-syntax
+```
