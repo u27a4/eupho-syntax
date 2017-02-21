@@ -1,11 +1,15 @@
 .syntax--source.syntax--java {
   .syntax--storage {
     &.syntax--modifier.syntax--import {
-      color: @hue-6-2;
+      color: @syntax-color-type;
+    }
+
+    &.syntax--modifier.syntax--package {
+      color: @syntax-color-package;
     }
 
     &.syntax--type {
-      color: @hue-6-2;
+      color: @syntax-color-type;
 
       &.syntax--annotation {
         color: @mono-2;
@@ -19,6 +23,10 @@
   .syntax--variable {
     &.syntax--other {
       color: @syntax-text-color;
+
+      &.syntax--property {
+        color: @syntax-color-variable;
+      }
     }
   }
 }
