@@ -3,7 +3,7 @@
 A dark syntax theme for [Atom](https://atom.io/).
 
 Inspired by [Chester theme](https://atom.io/themes/chester-atom-syntax),
-and based on [One Dark Syntax theme](https://github.com/atom/one-dark-syntax) code.
+and based on [One Dark Syntax theme](https://atom.io/themes/one-dark-syntax) code.
 
 ### Preview
 
