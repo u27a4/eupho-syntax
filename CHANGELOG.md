@@ -1,3 +1,6 @@
+## 0.3.0
+* Update color schemes(C, C++, Java, Javascript, JSON, Python, Ruby)
+
 ## 0.2.0
 * Update base syntax colors
 
