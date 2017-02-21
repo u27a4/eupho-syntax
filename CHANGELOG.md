@@ -1,3 +1,6 @@
+## 1.0.0
+* Publish first version.
+
 ## 0.3.0
 * Update color schemes(C, C++, Java, Javascript, JSON, Python, Ruby)
 

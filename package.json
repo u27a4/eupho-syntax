@@ -1,11 +1,12 @@
 {
   "name": "eupho-syntax",
   "theme": "syntax",
-  "version": "0.3.0",
-  "description": "A syntax theme for Atom",
+  "version": "1.0.0",
+  "description": "A dark syntax theme for Atom",
   "keywords": [
     "syntax",
     "theme",
+    "dark",
     "eupho"
   ],
   "repository": "https://github.com/u27a4/eupho-syntax",
