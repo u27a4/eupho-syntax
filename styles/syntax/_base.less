@@ -83,9 +83,20 @@
   }
 
   &.syntax--parameter {
-    color: @syntax-color-variable-parameter;
+    color: @syntax-color-parameter;
   }
 
+  &.syntax--language {
+    color: @syntax-color-support;
+  }
+
+  &.syntax--other.syntax--property {
+    color: @syntax-color-variable;
+  }
+
+  &.syntax--other.syntax--object {
+    color: @syntax-text-color;
+  }
 }
 
 .syntax--string {
@@ -155,6 +166,10 @@
   &.syntax--bracket {
     color: @syntax-text-color;
   }
+
+  &.syntax--separator {
+    color: @syntax-color-operator;
+  }
 }
 
 .syntax--support {
@@ -172,6 +187,10 @@
     &.syntax--any-method {
       color: @syntax-color-support;
     }
+  }
+
+  &.syntax--variable {
+    color: @syntax-color-support;
   }
 }
 
@@ -226,7 +245,7 @@
 
   &.syntax--definition {
     &.syntax--variable {
-      color: @syntax-color-variable;
+      color: @syntax-text-color;
     }
   }
 
@@ -250,6 +269,10 @@
 
   &.syntax--tag {
     color: @syntax-text-color;
+  }
+
+  &.syntax--annotation {
+    color: @syntax-color-annotation;
   }
 }
 
