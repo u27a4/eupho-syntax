@@ -8,16 +8,16 @@ and based on [One Dark Syntax theme](https://atom.io/themes/one-dark-syntax) cod
 ### Preview
 
 #### Ruby
-![](/screenshots/ruby.png)
+![](https://raw.githubusercontent.com/u27a4/eupho-syntax/master/screenshots/ruby.png)
 
 #### HTML
-![](/screenshots/html.png)
+![](https://raw.githubusercontent.com/u27a4/eupho-syntax/master/screenshots/html.png)
 
 #### JavaScript
-![](/screenshots/javascript.png)
+![](https://raw.githubusercontent.com/u27a4/eupho-syntax/master/screenshots/javascript.png)
 
 #### CSS
-![](/screenshots/css.png)
+![](https://raw.githubusercontent.com/u27a4/eupho-syntax/master/screenshots/css.png)
 
 > The font used in the screenshots is [Fira Code](https://github.com/tonsky/FiraCode).
 
