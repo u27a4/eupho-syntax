@@ -2,4 +2,16 @@
   .syntax--constant.syntax--other.syntax--symbol > .syntax--punctuation {
     color: inherit;
   }
+
+  .syntax--meta {
+    &.syntax--require {
+      color: @syntax-text-color;
+    }
+  }
+
+  .syntax--keyword {
+    &.syntax--other.syntax--special-method {
+      color: @syntax-color-import;
+    }
+  }
 }
