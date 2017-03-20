@@ -1,7 +1,7 @@
 {
   "name": "eupho-syntax",
   "theme": "syntax",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A dark syntax theme for Atom",
   "keywords": [
     "syntax",
